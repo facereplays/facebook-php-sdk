@@ -14,7 +14,10 @@
     "require": {
         "php": ">=5.2.0",
         "ext-curl": "*",
-        "ext-json": "*"
+        "ext-json": "*",
+         "ext-gd": "*",
+         "ext-mbstring": "*"
+        
     },
     "autoload": {
         "classmap": ["src"]
